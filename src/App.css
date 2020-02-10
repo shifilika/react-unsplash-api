@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+}
+a.logo {
+  color: #000;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.mainmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mainmenu li {
+  display: inline-block;
+}
+
+.mainmenu li a {
+  display: block;
+  padding: 12px;
+  color: #000;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.mainmenu li a:hover:after {
+  position: absolute;
+  left: 50%;
+  bottom: 6px;
+  height: 2px;
+  background: #000;
+  content: "";
+  width: 33px;
+  margin-left: -15px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+input[type=text] {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 4px 14px;
+}
+
+input[type=submit] {
+  border: none;
+  background: #000;
+  color: #fff;
+  padding: 5px 25px;
+}
+
+header.header {
+  padding: 10px;
+}
+
+
+form {}
+
+input:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-weight: 900;
+}
+.top-heading{
+  margin-top: 40px;
+}
+
+a.cat-name {opacity: .5;font-size: 90%;color: #000;}
+
+.footermenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footermenu li {
+  display: inline-block;
+}
+
+.footermenu li a {
+  color: #000;
+  padding: 10px;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.copy-right-text {
+  margin-bottom: 30px;
+}
+
+.footermenu {
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+.photos-wraps img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.photos-wraps {
+  height: 200px;
+}
+
+.content-block h2 {
+  padding-bottom: 30px;
+}
