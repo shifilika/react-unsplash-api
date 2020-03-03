@@ -2,10 +2,31 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+.footer_menu li {
+  display: inline-block;
+}
+
+.footer_menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer_menu {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.footer_menu li a {
+  text-transform: uppercase;
+  color: #333;
+  padding: 7px;
+}
 a.logo {
   color: #000;
-  font-size: 25px;
-  font-weight: 800;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .mainmenu ul {
@@ -20,99 +41,67 @@ a.logo {
 
 .mainmenu li a {
   display: block;
-  padding: 12px;
-  color: #000;
+  padding: 6px;
+  font-size: 19px;
   text-transform: uppercase;
+  color: #000;
   position: relative;
 }
 
 .mainmenu li a:hover:after {
   position: absolute;
-  left: 50%;
-  bottom: 6px;
+  width: 40px;
   height: 2px;
   background: #000;
   content: "";
-  width: 33px;
+  bottom: 4px;
+  left: 50%;
   margin-left: -15px;
 }
 
-a:hover {
-  text-decoration: none;
+input[type="text"] {
+  border: 1px solid;
+  padding: 5px;
 }
 
-input[type=text] {
-  border: 1px solid #ddd;
-  text-align: center;
-  padding: 4px 14px;
-}
-
-input[type=submit] {
-  border: none;
+input[type="submit"] {
+  border: 1px solid #000;
   background: #000;
   color: #fff;
-  padding: 5px 25px;
+  padding: 5px 20px;
+}
+.header {
+  padding: 20px;
 }
 
-header.header {
-  padding: 10px;
-}
-
-
-form {}
-
-input:focus {
+imput:focus {
   outline: none;
 }
 
-img {
-  max-width: 100%;
+.content-bolck {
+  padding: 50px 0;
 }
 
 h2 {
   font-weight: 900;
-}
-.top-heading{
-  margin-top: 40px;
-}
-
-a.cat-name {opacity: .5;font-size: 90%;color: #000;}
-
-.footermenu ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.footermenu li {
-  display: inline-block;
-}
-
-.footermenu li a {
-  color: #000;
-  padding: 10px;
-  font-size: 17px;
+  text-align: center;
   text-transform: uppercase;
 }
 
-.copy-right-text {
-  margin-bottom: 30px;
+.single-photo-item h2 {
+  font-size: 20px;
 }
 
-.footermenu {
-  padding-top: 30px;
-  padding-bottom: 70px;
+p.catagory-name {
+  text-align: center;
+  opacity: .5;
 }
-.photos-wraps img {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-.photos-wraps {
+.photo-size {
   height: 200px;
 }
 
-.content-block h2 {
-  padding-bottom: 30px;
+.photo-size img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }

@@ -1,16 +1,18 @@
+
 import React, { Component } from 'react'
 
 export default class Footer extends Component {
     render() {
         return (
             <div>
-                <footer>
+                <div className="footer">
                     <div className="container">
                         <div className="row">
                             <div className="col text-center">
-                                <h2>Lorem ipsum dolor sit amet.</h2>
-                                <h3>+08801751433289</h3>
-                                <div className="footermenu">
+                                <p>I WORK WORLDWIDE</p>
+                                <h2>Hello@domain.com</h2>
+                                <p className="numer">(+01) 234. 567.890</p>
+                                <div className="footer_menu">
                                     <ul>
                                         <li><a href="/">facebook</a></li>
                                         <li><a href="/">youtube</a></li>
@@ -18,11 +20,10 @@ export default class Footer extends Component {
                                         <li><a href="/">linkdin</a></li>
                                     </ul>
                                 </div>
-                                <div className="copy-right-text">Lorem ipsum dolor sit amet.</div>
                             </div>
                         </div>
                     </div>
-                </footer>
+                </div>
             </div>
         )
     }
