@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shifilika/unsplash-clone/static/css/main.6cfe75bd.chunk.css",
+    "main.js": "/shifilika/unsplash-clone/static/js/main.6ab90148.chunk.js",
+    "main.js.map": "/shifilika/unsplash-clone/static/js/main.6ab90148.chunk.js.map",
+    "runtime-main.js": "/shifilika/unsplash-clone/static/js/runtime-main.92113f89.js",
+    "runtime-main.js.map": "/shifilika/unsplash-clone/static/js/runtime-main.92113f89.js.map",
+    "static/js/2.ad797fca.chunk.js": "/shifilika/unsplash-clone/static/js/2.ad797fca.chunk.js",
+    "static/js/2.ad797fca.chunk.js.map": "/shifilika/unsplash-clone/static/js/2.ad797fca.chunk.js.map",
+    "index.html": "/shifilika/unsplash-clone/index.html",
+    "precache-manifest.3b2a997a0bde8e3ad764fcdcca0342e3.js": "/shifilika/unsplash-clone/precache-manifest.3b2a997a0bde8e3ad764fcdcca0342e3.js",
+    "service-worker.js": "/shifilika/unsplash-clone/service-worker.js",
+    "static/css/main.6cfe75bd.chunk.css.map": "/shifilika/unsplash-clone/static/css/main.6cfe75bd.chunk.css.map",
+    "static/js/2.ad797fca.chunk.js.LICENSE": "/shifilika/unsplash-clone/static/js/2.ad797fca.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92113f89.js",
+    "static/js/2.ad797fca.chunk.js",
+    "static/css/main.6cfe75bd.chunk.css",
+    "static/js/main.6ab90148.chunk.js"
+  ]
+}
